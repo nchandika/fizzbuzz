@@ -26,26 +26,26 @@ Is it really the most complicated FizzBuzz? I don't think so. You will agree onc
       |      {
   3   |        length:
   4   |          Math.max(
-  |   |            Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 3 / 2)) /       |12))) *
+  |   |            Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 3 / 2)) / 12))) *
   |   |              4,
-  |   |            Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 5)) / 20)))       |* 8
+  |   |            Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 5)) / 20))) * 8
   |   |          ) -
   |   |          Math.max(
-  |   |            Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 3)) / 12)))       |* 4 -
+  |   |            Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 3)) / 12))) * 4 -
   |   |              4,
-  |   |            Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 5 / 2)) /       |20))) *
+  |   |            Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 5 / 2)) / 20))) *
   |   |              8 -
-  |   |              Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 3)) /       |12))) * 4 -
+  |   |              Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 3)) / 12))) * 4 -
   |   |              4,
   |   |            0
   +   |          ),
       |      },
   5   |      (_, i) =>
   |   |        Math.max(
-  |   |          Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 3 / 2)) /       |12))) * 4 -
+  |   |          Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 3 / 2)) / 12))) * 4 -
   |   |            4,
-  |   |          Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 5 / 2)) /       |20))) * 8 -
-  |   |            Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 3)) / 12)))       |* 4 -
+  |   |          Math.floor(Math.abs(Math.sin((4 * Math.PI * (x - 5 / 2)) / 20))) * 8 -
+  |   |            Math.floor(Math.abs(Math.cos((4 * Math.PI * (x - 3)) / 12))) * 4 -
   |   |            4,
   |   |          0
   +   |        ) + i
