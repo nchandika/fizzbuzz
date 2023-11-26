@@ -1,0 +1,13 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "Most complicated JS fizzbuzz",
+  "main": "fizzbuzz.js",
+  "repository": "https://github.com/nchandika/fizzbuzz",
+  "author": "Nadeeshan Chandika <nadee.chandika@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "fizzbuzz": "node fizzbuzz.js"
+  }
+}
