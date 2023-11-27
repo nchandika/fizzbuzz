@@ -1,4 +1,4 @@
-# Most completed JS-FizzBuzz
+# JS-FizzBuzz
 
 Solution to the the classic [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz) problem in JavaScript with some math! 
 
